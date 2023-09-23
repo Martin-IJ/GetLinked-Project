@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "ClashDisplay-Medium";
+  src: url("./fonts/ClashDisplay-Medium.woff2") format("woff2"),
+    url("./fonts/ClashDisplay-Medium.woff") format("woff"),
+    url("./fonts/ClashDisplay-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.purpleGradient {
+  background: linear-gradient(to left, #903aff, #d434fe, #ff26b9, #fe34b9);
+}
+
+.interFont {
+  font-family: "Inter", sans-serif;
+}
+
+.unicaOne {
+  font-family: "Unica One", cursive;
+}
+
+.whiteLine {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.navBorder {
+  border-radius: 8px;
+  border: 0.5px solid rgba(255, 255, 255, 0.04);
+  background: #150e28;
+  backdrop-filter: blur(30px);
+  /* width: 348px; */
+  height: 492px;
+}
+
+body {
+  background-color: #150e28;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
